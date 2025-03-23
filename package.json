@@ -1,7 +1,10 @@
 {
   "name": "Scrim-s06ivm6",
   "description": "https://scrimba.com/learn-react-c0e/~06iy/s02emhdstd/head",
+  "homepage": "https://flandersfrybad.github.io/meme-generator",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +16,7 @@
     "vite": "latest"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "gh-pages": "^6.3.0"
   }
 }
