@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "remix build",
     "preview": "vite preview"
   },
   "dependencies": {
