@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react"
 export default defineConfig({
 	base: '/meme-generator/',
 	build: {
-		outDir: 'dist'
+		outDir: 'dist',
 	},
 	plugins: [
 		react()
