@@ -5,6 +5,7 @@ export default defineConfig({
 	base: '/meme-generator/',
 	build: {
 		outDir: 'dist',
+		assetsDir: 'assets', 
 	},
 	plugins: [
 		react()
